@@ -6,11 +6,11 @@
 #    By: tevan-de <tevan-de@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2021/06/10 11:40:24 by tevan-de      #+#    #+#                  #
-#    Updated: 2021/06/10 14:27:21 by tevan-de      ########   odam.nl          #
+#    Updated: 2021/06/10 15:40:48 by tevan-de      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		=	get_next_line.a
+NAME		=	libget_next_line.a
 
 CC			=	gcc
 
@@ -26,7 +26,7 @@ OFILES		=	${CFILES:%.c=%.o}
 
 BONUSOFILES	=	${BONUSCFILES:%.c=%.o}
 
-HEADERFILES	=	get_next_line.h
+HEADERFILES	=	../get_next_line.h
 
 ifdef BONUS
 OFILES = ${BONUSCFILES:%.c=%.o}
